@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CopyGuru — seus textos prontos em qualquer app</title>
+<meta name="description" content="Bolinha flutuante no Android com seus textos prontos. Toca, escolhe a copy, cola em qualquer app. Grátis, sem conta e sem internet.">
+<meta name="theme-color" content="#121218">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="CopyGuru — seus textos prontos em qualquer app">
+<meta property="og:description" content="Bolinha flutuante no Android com seus textos prontos. Toca, escolhe a copy, cola em qualquer app.">
+<meta property="og:image" content="assets/logo.png">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#baixar">Pular para o download</a>
+
+<header class="nav">
+  <a class="nav__brand" href="#top">
+    <img src="assets/favicon.png" alt="" width="32" height="32">
+    <span>CopyGuru</span>
+  </a>
+  <nav class="nav__links">
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#instalar">Instalar</a>
+    <a href="https://github.com/valb-mig/copyguru" rel="noopener">Código</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero__text">
+      <img class="hero__logo" src="assets/logo.png" alt="Ícone do CopyGuru" width="112" height="112">
+      <h1>Seus textos prontos<br>em qualquer app</h1>
+      <p class="hero__lead">
+        Uma bolinha flutuante fica por cima do que você estiver usando.
+        Toca nela, escolhe a copy, copiou. Volta pro WhatsApp e cola.
+      </p>
+
+      <div class="cta" id="baixar">
+        <a class="btn btn--primary" id="download" href="https://github.com/valb-mig/copyguru/releases/latest" rel="noopener">
+          Baixar o APK
+        </a>
+        <p class="cta__meta" id="meta">Android 8.0 ou superior</p>
+      </div>
+
+      <p class="hero__note">
+        Grátis e sem conta. Não tem anúncio, não tem servidor, não pede internet.
+      </p>
+    </div>
+
+    <div class="hero__shots">
+      <img src="assets/screenshot-lista.jpg" alt="Tela do app com copies organizadas por segmento" width="571" height="900" loading="eager">
+      <img src="assets/screenshot-bolinha.jpg" alt="Bolinha flutuante aberta por cima de outro app" width="571" height="900" loading="lazy">
+    </div>
+  </section>
+
+  <section class="section" id="como-funciona">
+    <h2>Como funciona</h2>
+    <ol class="steps">
+      <li>
+        <span class="steps__n">1</span>
+        <h3>Cadastra suas copies</h3>
+        <p>Separa por segmento: Vendas, Marketing, Consultoria, o que fizer sentido pro seu trabalho. Cada copy ganha um nome curto pra você achar rápido.</p>
+      </li>
+      <li>
+        <span class="steps__n">2</span>
+        <h3>Liga a bolinha</h3>
+        <p>Ela passa a flutuar sobre qualquer app. Arrasta pra onde quiser e ela gruda na borda mais próxima, fora do seu caminho.</p>
+      </li>
+      <li>
+        <span class="steps__n">3</span>
+        <h3>Toca e cola</h3>
+        <p>Um toque abre o painel ao lado da bolinha. Outro toque na copy manda o texto pro clipboard. Cola onde precisar, sem sair da conversa.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>O que tem dentro</h2>
+    <ul class="features">
+      <li><strong>Segmentos coloridos</strong>Agrupa por contexto e mostra quantas copies tem em cada um.</li>
+      <li><strong>Favoritas</strong>As que você mais usa sobem pro topo e abrem primeiro na bolinha.</li>
+      <li><strong>Busca</strong>Procura por nome ou pelo conteúdo do texto.</li>
+      <li><strong>Edição rápida</strong>Criar, editar, favoritar e remover sem sair da lista.</li>
+      <li><strong>Tema claro e escuro</strong>Segue o tema do sistema sem configuração.</li>
+      <li><strong>Funciona offline</strong>Nenhuma permissão de rede. Os dados ficam só no aparelho.</li>
+    </ul>
+  </section>
+
+  <section class="section" id="instalar">
+    <h2>Instalando</h2>
+    <p class="section__lead">
+      O CopyGuru não está na Play Store, então a instalação é pelo APK. São três passos.
+    </p>
+    <ol class="install">
+      <li>
+        <h3>Baixe o APK</h3>
+        <p>Use o botão no topo da página. O arquivo vem direto dos <a href="https://github.com/valb-mig/copyguru/releases" rel="noopener">releases do GitHub</a>.</p>
+      </li>
+      <li>
+        <h3>Autorize a instalação</h3>
+        <p>Ao abrir o arquivo, o Android pergunta se você permite instalar apps dessa origem. É o aviso padrão para qualquer app fora da loja.</p>
+      </li>
+      <li>
+        <h3>Permita a sobreposição</h3>
+        <p>Na primeira vez que você ligar a bolinha, o app pede a permissão <em>Sobrepor a outros apps</em>. Sem ela a bolinha não aparece, porque é exatamente isso que ela faz.</p>
+      </li>
+    </ol>
+    <p class="warn">
+      Ao atualizar para uma versão nova, instale por cima. Desinstalar apaga as copies salvas.
+    </p>
+  </section>
+
+  <section class="section section--tight">
+    <h2>Privacidade</h2>
+    <p class="section__lead">
+      O app não declara permissão de internet no Android, então ele não tem como enviar nada pra lugar nenhum.
+      Suas copies ficam num banco local no aparelho. Não existe conta, login, telemetria nem sincronização.
+      O <a href="https://github.com/valb-mig/copyguru" rel="noopener">código é aberto</a> se você quiser conferir.
+    </p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>CopyGuru · feito por <a href="https://github.com/valb-mig" rel="noopener">valb-mig</a></p>
+  <p><a href="https://github.com/valb-mig/copyguru" rel="noopener">Código no GitHub</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
