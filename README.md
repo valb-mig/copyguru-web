@@ -1,9 +1,9 @@
 # copyguru-web
 
-Landing page do [CopyGuru](https://github.com/valb-mig/copyguru), o app de bolinha
+Landing page do [CopyGuru](https://github.com/valb-mig-lab/copyguru), o app de bolinha
 flutuante com textos prontos para Android.
 
-**No ar:** https://valb-mig.github.io/copyguru-web/
+**No ar:** https://valb-mig-lab.github.io/copyguru-web/
 
 ## O que é
 

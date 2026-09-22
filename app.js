@@ -2,7 +2,7 @@
 // Se a API falhar ou estourar o limite de requisições, o link do HTML já
 // aponta para /releases/latest, então o download continua funcionando.
 
-const REPO = 'valb-mig/copyguru';
+const REPO = 'valb-mig-lab/copyguru';
 
 function formatSize(bytes) {
   return (bytes / 1024 / 1024).toFixed(1).replace('.', ',') + ' MB';
